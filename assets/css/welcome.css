@@ -1,0 +1,116 @@
+
+
+header {
+	padding-bottom: 100px;
+	margin-bottom: 0px;
+	position: relative;
+	font-size: 40px;
+	color: #FFF;
+	font-family: Ostrich Sans;
+}
+
+#welcome {
+	height: 74px;
+	float: left;
+	font-size: 60px;
+	color: #c0deed;
+	font-family: Arial;	
+}
+
+#help {
+	background: url(../images/buttons/helpknop.png);
+	float: right;
+	margin-right: 0px;
+	height: 81px;
+	width: 175px;
+	margin: 0px 0px 0px 0px;
+}
+
+#content-wrapper {
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 0px;
+	background: #0084B4;
+	height: 768px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+section {
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 35px 10px 55px 10px;
+	width: 800px;
+	background: #c0deed;
+	border-radius: 15px;
+	
+}
+
+.section {
+	display: inline-block;
+	font-family: Ostrich Sans;
+	color: #0084B4;
+	font-size: 30px;
+}
+
+.butn {
+	height: 81px;
+	width: 175px;	
+	float: right;
+	margin-right: 0px;
+	border-radius:15px;
+	border: none !important;
+	box-shadow: 0px 10px 14px -7px #000000;
+}
+.butn:active , .vlag:active{
+	position:relative;
+	top:3px;
+}
+
+.vlag {
+	height: 189px;
+	width: 300px;
+	margin-left: 65px;
+	margin-top: 20px;
+		border-radius:15px;
+	border: none !important;
+	box-shadow: 0px 10px 14px -7px #000000;
+}
+
+#help {
+	background: url(../images/buttons/helpknop.png);
+}
+
+#other {
+	background: url(../images/buttons/other.png);
+		margin: -85px 0px 10px 0px;
+}
+
+#start {
+	background: url(../images/buttons/other.png);
+	margin-top: 115px;
+}
+
+#Nederlands {
+	background: url(../images/vlag_nederland.jpg);
+	background-size: 300px 189px;
+}
+
+#Frans {
+	background: url(../images/vlag_frankrijk.jpg);
+	background-size: 300px 189px;
+}
+
+#Duits {
+	background: url(../images/vlag_duisland.jpg);
+	background-size: 300px 189px;
+}
+
+#Engels {
+	background: url(../images/vlag_engeland.jpg);
+	background-size: 300px 189px;
+}

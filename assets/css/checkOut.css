@@ -1,0 +1,156 @@
+
+ 
+header {
+	padding-bottom: 100px;
+	padding-top: 47px;
+	margin-bottom: 0px;
+    position: relative;
+    font-size: 40px;
+    color: white;
+    font-family: Arial;
+}
+
+#welcome {
+	height: 74px;
+	float: left;
+	font-size: 60px;
+	color:#c0deed;
+}
+
+#help {
+	background: url(../images/buttons/helpknop.png);
+	float: right;
+	margin-right: 0px;
+	height: 81px;
+	width: 175px;
+}
+
+#content-wrapper {
+    padding-left:80px;
+    padding-right:80px;
+    padding-bottom:0px;
+    background: #0084B4;
+    height: 768px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+#accordion {
+	height: 449px;
+	/*margin-top: 66px;
+    padding: 44px;
+    background: #467612 url("intro_background.png") repeat-x;
+    background-size: 100%;
+    border-radius: 22px;*/
+}
+#accordion .ui-corner-all{
+	border-radius: 15px;
+}
+#accordion .ui-accordion-header{
+	background: #123A6D;
+	color: white; 
+}
+#accordion .ui-icon.iconOpen {
+    background:url("minus.png") no-repeat;
+    background-size:20px;
+    width:20px;
+    height:20px;
+}
+#accordion .ui-icon.iconClosed {
+    background:url("plus.png") no-repeat;
+    background-size:20px;
+    width:20px;
+    height:20px;
+}
+#accordion .ui-accordion-content {    
+    background-color: #f3f3f3;  
+    color: #777;  
+    font-size: 10pt;  
+    line-height: 16pt;  
+}  
+
+section {
+    display:inline-block;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 800px;
+    height: 545px;
+    margin-left: 190px;
+    background: #c0deed;
+    border-radius:15px;
+}
+
+.section {
+	display:inline-block;
+	font-family: Ostrich Sans;
+	color: #0084B4;
+	font-size: 30px;
+}
+
+#accordion {
+	font-family: Arial;
+}
+
+#accordion .ui-accordion-content {    
+    background-color: #f3f3f3;  
+    color: #777;  
+    font-size: 18pt;  
+    line-height: 16pt;  
+}
+
+#print {
+	background: url(../images/buttons/printknop.png);
+	height: 81px;
+	width: 175px;
+	margin-top: 5px;
+	float: left;
+	
+}
+
+#send {
+	background: url(../images/buttons/mailknop.png);
+	height: 81px;
+	width: 175px;
+	margin-top: 5px;
+	margin-left: 145px;
+}
+
+#checkout {
+	background: url(../images/buttons/exitknop.png);
+	height: 81px;
+	width: 175px;
+	margin-top: 5px;
+	float: right;
+}
+
+
+
+#wrap .butn{
+	border-radius:15px;
+	box-shadow: 0px 10px 14px -7px #276873;
+}
+
+#wrap #home{
+	box-shadow: 0px 10px 14px -7px #000000;
+}
+
+
+#home {
+	background: url(../images/buttons/homeknop.png);
+	height: 81px;
+	width: 175px;
+	float: right;
+	margin-top: -91px;
+	margin-right: 0px;
+}
+
+footer {
+    position: relative;
+    font-size: 35px;
+    color: white;
+    font-family:  Book Antiqua;
+}

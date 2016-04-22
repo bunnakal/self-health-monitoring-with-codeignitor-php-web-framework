@@ -1,0 +1,72 @@
+
+header {
+	padding-bottom: 60px;
+	margin-top:120px;
+	position: relative;
+	font-size: 40px;
+	color: #FFF;
+	font-family: Ostrich Sans;
+}
+
+#info{
+	color: #c0deed;
+	font-family: Arial;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 40px;
+}
+
+#welcome {
+	height: 74px;
+	font-size: 60px;
+	color: #c0deed;
+	font-family: Arial;	
+}
+
+
+#content-wrapper {
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 0px;
+	background: #0084B4;
+	height: 500px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#help{
+	background-image: url(../images/buttons/helpknop.png);
+	background-repeat: no-repeat;
+    background-size: 263px;
+	height: 120px;
+	width: 263px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+		border-radius:15px;
+	border: none !important;
+	box-shadow: 0px 10px 14px -7px #000000;
+}
+
+section {
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 35px 10px 55px 10px;
+	width: 600px;
+	height: 260px;
+	background: #0084B4;
+	border-radius: 15px;
+	
+}
+
+.section {
+	display: inline-block;
+	font-family: Ostrich Sans;
+	color: #0084B4;
+	font-size: 30px;
+}
+

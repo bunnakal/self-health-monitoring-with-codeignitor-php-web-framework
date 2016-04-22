@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+header {
+	padding-bottom: 100px;
+	margin-top: 47px;
+	position: relative;
+	font-size: 40px;
+	color: white;
+	font-family: Arial;
+}
+
+#welcome {
+	height: 74px;
+	float: left;
+	font-size: 60px;
+	color: #c0deed
+}
+
+#help {
+	background: url(../images/buttons/helpknop.png);
+	float: right;
+	margin-right: 0px;
+	height: 81px;
+	width: 175px;
+}
+
+#back {
+	background: url(../images/buttons/back2.png);
+	z-index: 1;
+	height: 81px;
+	width: 175px;
+	float: left;
+	margin: -85px 0px 10px 0px; 
+}
+
+
+#content-wrapper {
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 0px;
+	background: #0084B4;
+	height: 100%;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+section {
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 20px 10px 15px 10px;
+	width: 800px;
+	background: #c0deed;
+	border-radius: 15px;
+	
+}
+
+.section {
+	display: inline-block;
+	font-family: Ostrich Sans;
+	color: #0084B4;
+	font-size: 30px;
+}
+
+.knop {
+	height: 150px;
+	width: 400px;
+	margin: 10px 200px;
+  	padding: 15px;
+	border-radius:15px;
+	border: none !important;
+	box-shadow: 0px 10px 14px -7px #000000;
+}
+
+.butn:active , .knop:active{
+	position:relative;
+	top:3px;
+}
+
+#eID {
+	background: url(../images/buttons/eID.png);
+	background-size: 400px 150px;
+}
+
+#account {
+	background: url(../images/buttons/account.png);
+	background-size: 400px 150px;
+}
+
+#createaccount {
+	background: url(../images/buttons/createaccount.png);
+	background-size: 400px 150px;
+	margin-bottom: 17px;
+}
+

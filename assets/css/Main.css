@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #0084B4;
+	text-align: justify;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.butn{
+	border-radius:15px;
+	    border: none !important;
+	box-shadow: 0px 10px 14px -7px #000000;
+}
+.butn:active{
+	position:relative;
+	top:3px;
+}
+
+.butn:focus{
+	outline: 0;
+}
+
+.info{
+	color: #0084B4;
+	font-family: Ostrich Sans;
+}
+
+.scrollbutn{
+	border-radius:15px;
+	border: none !important;
+	box-shadow: 0px 10px 14px -7px #000000;
+}
+.scrollbutn:active{
+	position:relative;
+	top:3px;
+}
+
+.scrollbutn:focus{
+	outline: 0;
+}

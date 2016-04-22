@@ -1,0 +1,161 @@
+
+header {
+	padding-bottom: 100px;
+	position: relative;
+	font-size: 40px;
+	color: white;
+	font-family: Arial;
+}
+
+#welcome {
+	height: 74px;
+	float: left;
+	font-size: 60px;
+	color:#c0deed;
+}
+
+#help {
+	background: url(../images/buttons/helpknop.png);
+	float: right;
+	margin-right: 0px;
+	height: 81px;
+	width: 175px;
+}
+
+#content-wrapper {
+    padding-left:80px;
+    padding-right:80px;
+    padding-top:47px;
+    background: #0084B4;
+    height: 721px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+section {
+    display:inline-block;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 800px;
+    margin-left: 190px;
+    background: #c0deed;
+    border-radius:15px;
+}
+
+.section {
+	display:inline-block;
+	font-family: Ostrich Sans;
+	color: #0084B4;
+	font-size: 30px;
+	font-family: Arial;
+}
+
+#progressbar {
+	width: 610px;
+	float: right;
+	margin-right: 0px;
+	color: #000;
+	
+}
+
+#test-beschrijving {
+	background: #ffffff;
+	margin-top:10px;
+	float: left;
+	margin-right: 10px;
+	width: 285px;
+	height: 362px;
+	border-radius:15px;
+	padding: 10px 10px 10px 10px;
+	font-size: 25px;
+	text-align: left;
+
+}
+#text p{
+	position: relative;
+	padding:10px;
+	text-align: center;
+	font-family: Ostrich Sans;
+	font-size: 30px;
+	color: #3300FF;
+}
+
+
+
+#image img{
+	position:relative;
+	margin:25px 0px 35px 15px;
+	radius:15px;
+	-webkit-box-shadow:
+            0px 0px 0px 2px rgba(0,0,0,0.6),
+                0px 0px 0px 14px #fff,
+                0px 0px 0px 18px rgba(0,0,0,0.2),
+                6px 6px 8px 0px #555;
+}
+
+.imagerot img{
+    width: 270px;
+	height: 350px;
+    
+}
+
+.image img{
+ 	width: 450px;
+	height: 350px;   
+}
+
+#back {
+	background: url(../images/buttons/back.png);
+	height: 81px;
+	width: 175px;
+	margin-top: 5px;
+	float: left;
+	
+}
+
+#next {
+	background: url(../images/buttons/nexxt.png);
+	height: 81px;
+	width: 175px;
+	margin-top: 5px;
+	float: right;
+}
+
+.butn{
+	border-radius:15px;
+	box-shadow: 0px 10px 14px -7px #000000;
+}
+
+#wrap .butn{
+	border-radius:15px;
+	box-shadow: 0px 10px 14px -7px #276873;
+}
+
+#wrap #home{
+	box-shadow: 0px 10px 14px -7px #000000;
+}
+
+.butn:active{
+	position:relative;
+	top:3px;
+}
+
+#home {
+	background: url(../images/buttons/exitknop.png);
+	height: 81px;
+	width: 175px;
+	float: right;
+	margin-top: -91px;
+	margin-right: 0px;
+}
+
+footer {
+    position: relative;
+    font-size: 35px;
+    color: white;
+    font-family:  Book Antiqua;
+}

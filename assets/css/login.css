@@ -1,0 +1,200 @@
+
+header {
+	padding-bottom: 100px;
+	margin-top: 47px;
+	position: relative;
+	font-size: 40px;
+	color: white;
+	font-family: Arial;
+}
+
+#welcome {
+	height: 74px;
+	float: left;
+	font-size: 60px;
+	color: #c0deed
+}
+
+#help {
+	background: url(../images/buttons/helpknop.png);
+	float: right;
+	margin-right: 0px;
+	height: 81px;
+	width: 175px;
+}
+
+
+#content-wrapper {
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 0px;
+	background: #0084B4;
+	height: 100%;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+section {
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 45px 10px 10px 10px;
+	width: 800px;
+	height: 497px;
+	background: #c0deed;
+	border-radius: 15px;
+	
+}
+
+.section {
+	display: inline-block;
+	font-family: Ostrich Sans;
+	color: #0084B4;
+	font-size: 30px;
+}
+
+#start {
+	background: url(../images/buttons/startknop.png);
+	z-index: 1;
+	height: 81px;
+	width: 175px;
+	float: right;
+	margin: -85px 0px 10px 0px; 
+}
+
+#back {
+	background: url(../images/buttons/back2.png);
+	z-index: 1;
+	height: 81px;
+	width: 175px;
+	float: left;
+	margin: -85px 0px 10px 0px; 
+}
+
+.butn {
+	border: none !important;
+	border-radius:15px;
+	box-shadow: 0px 10px 14px -7px #000000;
+}
+
+.butn:active{
+	position:relative;
+	top:3px;
+}
+
+fieldset {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	width: 800px;
+}
+
+.field{
+	padding:0;
+	margin: 0;
+	border: solid #ffffff 1px;
+	border-radius:5px;
+	width: 200px;
+	float: left;
+}
+
+#keyboardcase {
+	margin-top:20px;
+}
+
+#loginInputs input {
+	background: #ffffff url(../images/login-sprite.png) no-repeat;
+	padding: 15px 15px 15px 30px;
+	margin: 15px 0px 10px 180px;
+	width: 400px; /* 353 + 2 + 45 = 400 */
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+	-webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+	box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+}
+
+#createInputs input{
+	background-color: #ffffff;
+	padding: 15px 15px 15px 30px;
+	margin: 10px 10px 10px 21px;
+	width: 180px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+	-webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+	box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+}
+
+#inputs span {
+	margin: 0px 0px 0px 0px;
+}
+
+#username {
+background-position: 5px -2px !important;
+}
+
+#password {
+background-position: 5px -52px !important;
+}
+
+#actions {
+	margin: 0px 0 0 0;
+}
+
+#submit {
+	float: left;
+	height: 45px;
+	padding: 0;
+	width: 445px;
+	cursor: pointer;
+	font: bold 15px Arial, Helvetica;
+	color: #8f5a0a;
+	margin: 0px 0px 20px 180px;
+	background-color: #ffb94b;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0
+		rgba(255, 255, 255, 0.3) inset;
+	-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0
+		rgba(255, 255, 255, 0.3) inset;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3)
+		inset;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #d69e31 #e3a037 #d5982d #e3a037;
+}
+
+#submit:hover, #submit:focus {
+	background-color: #fddb6f;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b),
+		to(#fddb6f));
+	background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+	background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+	background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+	background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+	background-image: linear-gradient(top, #ffb94b, #fddb6f);
+}
+
+#submit:active {
+	outline: none;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+#actions a {
+	color: #FFF;
+	float: right;
+	line-height: 35px;
+	margin: 20px 55px 0px 0px;
+}
